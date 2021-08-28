@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/Desktop/Study/HTN/hello/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/ubuntu/Desktop/Study/HTN/hello/hello.ko /home/ubuntu/Desktop/Study/HTN/hello/hello.o /home/ubuntu/Desktop/Study/HTN/hello/hello.mod.o;  true

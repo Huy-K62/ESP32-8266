@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/Desktop/Study/HTN/hello/Module.symvers := sed 's/ko$$/o/' /home/ubuntu/Desktop/Study/HTN/hello/modules.order | scripts/mod/modpost -m -a   -o /home/ubuntu/Desktop/Study/HTN/hello/Module.symvers -e -i Module.symvers   -T -
